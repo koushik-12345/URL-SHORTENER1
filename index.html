@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>URL Shortener</h1>
+  </header>
+
+  <main>
+    <form id="url-form">
+      <input type="text" id="url-input" placeholder="Enter URL">
+      <button type="submit">Shorten</button>
+    </form>
+
+    <div id="short-url-container" style="display: none;">
+      <p>Your shortened URL:</p>
+      <a id="short-url" target="_blank"></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 URL Shortener. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
